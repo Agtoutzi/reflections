@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates a folder in order to keep information and all the files neccessary 
+for keeping track of the commits and repository. Without initialization git is 
+not able to keep the history of the files.
