@@ -1,5 +1,5 @@
-When would you want to use a remote repository rather than keeping all your work 
-local?
+When would you want to use a remote repository rather than keeping all your 
+work local?
 
 When i need to share work with others, or need access to it from other systems. 
 When you upload your work you can see it wherever you like using a computer.
@@ -11,7 +11,24 @@ automatically stay up-to-date with your remote repository?
 I would not always want this. Sometimes i need to review some change that has 
 been uploaded to the remote repository and decide whether to keep them and 
 integrate it to my local repository or discard it. Or sometimes when someone 
-makes some changes to the remote repository is not finished so i should not pull 
-these changes just yet because they are not complete.
+makes some changes to the remote repository is not finished so i should not 
+pull these changes just yet because they are not complete.
+
+
+Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+
+Fork copies a repository from another GitHub user to your GitHub profile. You 
+use it when you want to take a copy and work on another one's code. You cannot 
+change the original files on his GitHub repository. Clone is when you copy a 
+repository from a local or remote folder to your "working" folder. You use 
+clone when you want to get a copy of your own repository over GitHub or 
+someone else's repository on which you cannot connect your local repository to 
+perform changes. Also when you locally want to copy a repository from a place 
+to another. Branch is when you create a new path on your repository to keep 
+the parent path unchanged. You use it to perform changes or try new things but 
+also keep the original branch unharmed. When you are finished with your branch 
+you can merge it to its parent branch to integrate these changes to the 
+latter. You can create new branches either locally or on GitHub.
 
 
