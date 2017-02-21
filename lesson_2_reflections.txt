@@ -1,12 +1,12 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Git creates a folder in order to keep information and all the files neccessary 
+Git creates a folder in order to keep information and all the files necessary 
 for keeping track of the commits and repository. Without initialization git is 
 not able to keep the history of the files.
 
 
-How is the staging area different from the working directory and the repository? 
-What value do you think it offers?
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
 
 The staging area is the middle stage between the working directory and the 
 repository. It holds the files that will be saved in the next commit. This way 
@@ -21,5 +21,42 @@ creating a commit. You can always compare the change you made by using git diff
 and git diff --staged commands. The first one compares the difference between 
 your changes in the working depository and the staging area and the second 
 compares the files between the staging area and the previous commit.
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+When you want to try something new but do not want to mess with your main 
+project you can create a new branch to work there separately. Also if you want 
+to give a name to your commit in order to find it or refer to it easier.
+
+
+How do the diagrams help you visualize the branch structure?
+
+By showing which commits belong to branches and where the branches are 
+connected.
+
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+Merging two branches together results to a new commit which belongs to the 
+branch which was checked out during the merge. This commit includes the 
+changes of the commits of both merged branches. It combines the two branches, 
+thus it is represented as the child commit of both of them.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+Git automatically merges the parts of code that are not conflicting each other. 
+That means that these parts are independent and the code will work by adding 
+both of them in the merged file. This saves the user a lot of time by not 
+having to change the files by himself, eliminating the meaning of merge. Some 
+times however, there are conflicts. This means that some parts of the code are 
+cancelling each other and the final merge would not work right. These parts 
+must be manually merged by selecting the final form of that code. The con is 
+that the user must resolve these conflicts by hand, but this is necessary in 
+these cases.
 
 
