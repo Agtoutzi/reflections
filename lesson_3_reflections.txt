@@ -32,3 +32,11 @@ you can merge it to its parent branch to integrate these changes to the
 latter. You can create new branches either locally or on GitHub.
 
 
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+You can work with it even if you do not have access to internet. You can keep 
+updated with the last state of the project and integrate your work to it and 
+vice versa.
+
+
