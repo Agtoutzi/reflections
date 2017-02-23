@@ -40,3 +40,14 @@ updated with the last state of the project and integrate your work to it and
 vice versa.
 
 
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+The use of Git and GitHub takes a little time to get used to. This makes the 
+process of working alone in a project a little harder until you get used to 
+repositories, commits, logs etc. The very hard part would be collaborating with 
+other people. The process of developing parts of the project would be 
+significally more difficult. Keeping track and merging all the changes would 
+require more time and efort.
+
+
